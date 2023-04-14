@@ -1,0 +1,69 @@
+.fireworks-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* Style the Fireworks Button. */
+.fireworks-button .et_pb_button {
+  /* Custom transition for hover effects. */
+  transition: all 0.3s ease;
+}
+
+.fireworks-button .et_pb_button:hover {
+  /* Custom hover effect. */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for different button sizes. */
+.fireworks-button.fireworks-button-small .et_pb_button {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.fireworks-button.fireworks-button-medium .et_pb_button {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.fireworks-button.fireworks-button-large .et_pb_button {
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+/* Custom styles for different button shapes. */
+.fireworks-button.fireworks-button-rounded .et_pb_button {
+  border-radius: 25px;
+}
+
+.fireworks-button.fireworks-button-circle .et_pb_button {
+  border-radius: 50%;
+}
+
+/* Custom styles for different button border styles. */
+.fireworks-button.fireworks-button-dashed-border .et_pb_button {
+  border-style: dashed;
+}
+
+.fireworks-button.fireworks-button-dotted-border .et_pb_button {
+  border-style: dotted;
+}
+
+/* Custom styles for different button text styles. */
+.fireworks-button.fireworks-button-uppercase .et_pb_button {
+  text-transform: uppercase;
+}
+
+.fireworks-button.fireworks-button-italic .et_pb_button {
+  font-style: italic;
+}
+
+.fireworks-button.fireworks-button-bold .et_pb_button {
+  font-weight: bold;
+}
+
